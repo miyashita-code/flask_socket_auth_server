@@ -27,7 +27,9 @@ flask db upgrade
 
 ### Step 4: Install Requirements
 Install the required Python packages using pip:
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 ### Step 5: Set Up Firebase Authentication
 Create a project in Firebase Authentication and obtain your API key. Register the auth user's email and password in Firebase.
@@ -37,7 +39,9 @@ Fill in the necessary environment variables in the .env file, including database
 
 ### Step 7: Run the Flask Application
 Start the Flask server by running:
-`python app.py`
+```
+python app.py
+```
 
 
 ### Step 8: User Authentication
@@ -54,6 +58,8 @@ Run the client application in a new terminal:
 ## Endpoints
 - /login - For user login.
 - /create_user - To create a new user and receive an API key.
-`python -m http.server 8000`
+```
+python -m http.server 8000
+```
 
-Enjoy your secure Flask socket server with authentication!
+Enjoy your a slite secure Flask socket server with authentication!
