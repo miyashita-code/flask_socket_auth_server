@@ -63,3 +63,6 @@ python -m http.server 8000
 ```
 
 Enjoy your a slite secure Flask socket server with authentication!
+
+version1 : simple version
+vresion2 : a little trobleshooting for Communication Redundancy version
